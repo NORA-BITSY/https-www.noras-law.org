@@ -244,12 +244,12 @@ export function CaseBuilder() {
 UNITED STATES DISTRICT COURT
 [DISTRICT]
 
-${data.plaintiffs.map(p => p.name).join('\n', ')},
+${data.plaintiffs.map(p => p.name).join('\n')},
     Plaintiff(s),
 
 v.                                          Case No. ___________
 
-${data.defendants.map(d => d.name).join('\n', ')},
+${data.defendants.map(d => d.name).join('\n')},
     Defendant(s).
 
 VERIFIED COMPLAINT FOR VIOLATIONS OF CIVIL RIGHTS
@@ -267,29 +267,29 @@ PARTIES
 
 ${data.plaintiffs.map((p, i) => `
 ${3 + i}. Plaintiff ${p.name} is a citizen residing at ${p.address}...
-`).join('\n'')}
+`).join('\n')}
 
 ${data.defendants.map((d, i) => `
 ${3 + data.plaintiffs.length + i}. Defendant ${d.name} is sued in their ${d.capacity}...
-`).join('\n'')}
+`).join('\n')}
 
 FACTUAL ALLEGATIONS
 
 ${data.facts.map((f, i) => `
 ${10 + i}. On ${f.date}, ${f.description}
-`).join('\n'')}
+`).join('\n')}
 
 CLAIMS FOR RELIEF
 
 ${data.claims.map((claim, i) => `
 COUNT ${i + 1}: ${claim.type}
-(Against ${claim.defendants.join('\n', ') || 'All Defendants'})
+(Against ${claim.defendants.join(', ') || 'All Defendants'})
 
 ${20 + i * 5}. Plaintiff incorporates all preceding paragraphs...
 
 ${21 + i * 5}. The elements of this claim are:
-${claim.elements.map(e => `   • ${e}`).join('\n'\n')}
-`).join('\n'\n\n')}
+${claim.elements.map(e => `   • ${e}`).join('\n')}
+`).join('\n\n')}
 
 PRAYER FOR RELIEF
 
@@ -297,7 +297,7 @@ WHEREFORE, Plaintiff respectfully requests that this Court:
 
 ${data.reliefRequested.map((r, i) => `
 ${String.fromCharCode(65 + i)}. ${r.description}
-`).join('\n'')}
+`).join('\n')}
 
 JURY DEMAND
 

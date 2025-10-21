@@ -18,9 +18,9 @@ export default function LandingPage() {
                     Make corruption incompatible with reality.
                   </h1>
                   <p className="max-w-[640px] text-muted-foreground md:text-xl">
-                    Nora&apos;s Law is a grassroots guerrilla platform that turns testimony into mathematical proof. We
-                    weaponize data sovereignty, AI pattern analysis, and statistical certainty so victims never have to
-                    ask power to do the right thing again.
+                    Nora&apos;s Law is a grassroots platform that turns testimony into mathematical proof. We leverage
+                    data sovereignty, AI pattern analysis, and statistical certainty to help victims achieve justice
+                    without relying on those in power.
                   </p>
                 </div>
                 <ul className="grid gap-2 text-sm text-muted-foreground sm:max-w-[520px]">
@@ -35,7 +35,7 @@ export default function LandingPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 inline-flex h-2 w-2 rounded-full bg-primary" />
-                    Statistical analysis that exposes corruption as a mathematical impossibility, not a rhetorical claim.
+                    Statistical analysis that reveals corruption as a mathematical improbability, not just a rhetorical claim.
                   </li>
                 </ul>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -71,7 +71,7 @@ export default function LandingPage() {
                 <div className="inline-block rounded-lg bg-background px-3 py-1 text-sm font-semibold uppercase tracking-[0.3em] text-muted-foreground">
                   Why Nora&apos;s Law Exists
                 </div>
-                <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">Corruption thrives when truth is fragmented.</h2>
+                <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">Corruption persists when truth is fragmented.</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Statutes of limitation, jurisdictional walls, and institutional gatekeeping were designed to erase
                   evidence and isolate victims. We dissolve those barriers by connecting every testimony, every document,
@@ -97,7 +97,7 @@ export default function LandingPage() {
                   <div className="rounded-full bg-primary p-4 text-primary-foreground">
                     <TimerIcon className="h-8 w-8" />
                   </div>
-                  <h3 className="text-xl font-semibold">Weaponized Time</h3>
+                  <h3 className="text-xl font-semibold">Time as a Barrier</h3>
                   <p className="text-muted-foreground">
                     Statutes of limitation bury accountability. Our historical forensics revive decades of suppressed
                     evidence in seconds.
@@ -109,7 +109,7 @@ export default function LandingPage() {
                   <div className="rounded-full bg-primary p-4 text-primary-foreground">
                     <ShieldIcon className="h-8 w-8" />
                   </div>
-                  <h3 className="text-xl font-semibold">Institutional Gatekeeping</h3>
+                  <h3 className="text-xl font-semibold">Institutional Barriers</h3>
                   <p className="text-muted-foreground">
                     Systems protect themselves by controlling narratives. We decentralize proof so no one can close the
                     door on truth.
@@ -167,7 +167,7 @@ export default function LandingPage() {
                   </div>
                   <h3 className="text-xl font-semibold">Mathematics Over Negotiation</h3>
                   <p className="text-muted-foreground">
-                    We calculate statistical impossibilities of innocence. When proof is algorithmic, corruption cannot
+                    We calculate statistical improbabilities of innocence. When proof is algorithmic, corruption cannot
                     hide behind rhetoric.
                   </p>
                 </CardContent>
@@ -182,7 +182,7 @@ export default function LandingPage() {
                 <div className="inline-block rounded-lg bg-background px-3 py-1 text-sm font-semibold uppercase tracking-[0.3em] text-muted-foreground">
                   How The Platform Works
                 </div>
-                <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">Proof generated in four relentless motions.</h2>
+                <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">Proof generated in four key steps.</h2>
                 <p className="max-w-[860px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   From intake to impact, every layer of Nora&apos;s Law reinforces the next. Testimony fuels the data
                   collective, AI surfaces patterns, mathematical forensics produce proof, and public exposure forces
@@ -247,7 +247,7 @@ export default function LandingPage() {
                   The Platform Suite
                 </div>
                 <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
-                  Technology built to expose what exploitation tries to hide.
+                  Technology designed to expose what exploitation tries to hide.
                 </h2>
                 <p className="max-w-[880px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Nora&apos;s Law unifies specialized tools that transform raw testimony into cases, evidence, and
@@ -299,11 +299,11 @@ export default function LandingPage() {
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tight md:text-4xl/tight">
-                This is not reform. This is incompatibility.
+                This is not reform. This is accountability.
               </h2>
               <p className="mx-auto max-w-[640px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 We don&apos;t petition for visibility — we engineer it. When corruption must argue against mathematics,
-                its defenses collapse. Join the movement building tools power cannot ignore.
+                its defenses weaken. Join the movement building tools power cannot ignore.
               </p>
             </div>
             <div className="flex flex-col gap-2 justify-center min-[400px]:flex-row">

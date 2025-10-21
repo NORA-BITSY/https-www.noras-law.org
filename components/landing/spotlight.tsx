@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState, useEffect } from "react";
-import useMousePosition from "@/utils/useMousePosition";
+import useMousePosition from "@/lib/useMousePosition";
 
 type SpotlightProps = {
   children: React.ReactNode;

@@ -29,6 +29,7 @@ import { QuickActions } from './quick-actions'
 import { EvidenceVault } from './evidence-vault'
 import { PetitionHub } from './petition-hub'
 import { ComplianceTracker } from './compliance-tracker'
+import { AgencyComplianceTracker } from './agency-compliance-tracker'
 import { Timeline3D } from './timeline-3d'
 
 interface DashboardStats {
@@ -329,7 +330,18 @@ export function Dashboard() {
         </TabsContent>
 
         <TabsContent value="compliance">
-          <ComplianceTracker />
+          <Tabs defaultValue="parent" className="space-y-4">
+            <TabsList>
+              <TabsTrigger value="parent">Parent Compliance</TabsTrigger>
+              <TabsTrigger value="agency">Agency Compliance</TabsTrigger>
+            </TabsList>
+            <TabsContent value="parent">
+              <ComplianceTracker />
+            </TabsContent>
+            <TabsContent value="agency">
+              <AgencyComplianceTracker />
+            </TabsContent>
+          </Tabs>
         </TabsContent>
 
         <TabsContent value="timeline">

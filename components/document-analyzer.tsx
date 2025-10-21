@@ -157,8 +157,8 @@ export function DocumentAnalyzer() {
   const getSeverityColor = (severity: string) => {
     switch (severity) {
       case 'critical': return 'destructive'
-      case 'high': return 'bg-orange-500'
-      case 'medium': return 'bg-yellow-500'
+      case 'high': return 'destructive'
+      case 'medium': return 'secondary'
       case 'low': return 'secondary'
       default: return 'default'
     }

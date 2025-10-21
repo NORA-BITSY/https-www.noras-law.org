@@ -125,7 +125,8 @@ export function EvidenceVault() {
     if (type.startsWith('image/')) return fileTypeIcons['image/']
     if (type.startsWith('video/')) return fileTypeIcons['video/']
     if (type.startsWith('text/')) return fileTypeIcons['text/']
-    return fileTypeIcons[type] || fileTypeIcons.default
+    if (type === 'application/pdf') return fileTypeIcons['application/pdf']
+    return fileTypeIcons.default
   }
 
   const formatFileSize = (bytes: number) => {

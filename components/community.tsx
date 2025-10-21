@@ -29,7 +29,9 @@ import {
   Star,
   ThumbsUp,
   Reply,
-  MoreHorizontal
+  MoreHorizontal,
+  Scale,
+  User
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
